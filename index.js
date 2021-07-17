@@ -11,14 +11,14 @@ app.use(cors({
 
 app.use(express.json());
 
-app.engine("handlebars", handlebars({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
+/*app.engine("handlebars", handlebars({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");*/
 
 app.get("/", (req, res) => {
-    // res.send("WishCounter rest API - 2021");
-    res.render("inicio")
-})
-app.use(express.static(path.join(__dirname, '/public')));
+        res.send("WishCounter rest API - 2021");
+        //res.render("inicio")
+    })
+    //app.use(express.static(path.join(__dirname, '/public')));
 
 
 app.use(routers);
