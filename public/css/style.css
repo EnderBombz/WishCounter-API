@@ -1,0 +1,108 @@
+.gitBack {
+    background-color: rgb(19, 19, 19);
+    font-family: 'Roboto', sans-serif;
+}
+
+#cont {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #222;
+    padding: 0px;
+}
+
+.title {
+    text-align: center;
+    color: "#f4f4f4";
+    margin-top: 35px;
+    font-size: 50px;
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px 30px 5px 30px;
+}
+
+.content {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.container {
+    text-align: center;
+    color: rgb(221, 221, 221);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.boxCommands {
+    padding: 0%;
+}
+
+.commands {
+    background-color: rgb(209, 209, 209);
+    color: #111;
+    padding-bottom: 60px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: radial-gradient(rgb(255, 205, 148), rgb(211, 149, 35), rgb(126, 0, 199));
+    border-radius: 10px 10px 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    padding: 30px 10px 30px 10px;
+}
+
+.exampleBox {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 7px 0 rgba(0, 0, 0, .3);
+    margin: 5px;
+    font-size: 12px;
+}
+
+.urlJustify {
+    text-align: left;
+    margin-left: 3px;
+    padding: 5px;
+}
+
+.marginTop {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.destaque {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px 0 rgba(0, 0, 0, .3);
+    font-size: 12px;
+}
+
+.justify {
+    text-align: justify;
+    padding: 10px;
+}
+
+.attatchment {
+    box-shadow: 0px 2px 7px 0 rgba(0, 0, 0, .3);
+}
+
+.commandCard {
+    margin-bottom: 60px;
+}
