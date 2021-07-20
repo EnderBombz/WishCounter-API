@@ -51,7 +51,9 @@
 .banner {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
     background-image: radial-gradient(rgb(255, 205, 148), rgb(211, 149, 35), rgb(126, 0, 199));
     border-radius: 10px 10px 0px 0px;
 }
