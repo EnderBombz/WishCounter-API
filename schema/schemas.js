@@ -30,7 +30,11 @@ const Tier = mongoose.model("tiers", {
     icon: String,
 })
 
+const Misc = mongoose.model("misc", {
+    image: String,
+    name: String,
+})
 
 
 
-module.exports = { Characters, Weapons, Pieces, Tier };
+module.exports = { Characters, Weapons, Pieces, Tier, Misc };
